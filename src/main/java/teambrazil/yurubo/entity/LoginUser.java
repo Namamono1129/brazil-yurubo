@@ -6,7 +6,7 @@ import org.springframework.security.core.authority.AuthorityUtils;
 public class LoginUser extends org.springframework.security.core.userdetails.User {
 
     @Getter
-    private Brazilian wrappedBrazillian;
+    private Brazilian wrappedBrazilian;
 
     /**
      * Default constructor
@@ -15,6 +15,6 @@ public class LoginUser extends org.springframework.security.core.userdetails.Use
     public LoginUser(Brazilian sourceBrazilian) {
         super(sourceBrazilian.getLoginUsername(), sourceBrazilian.getPasswordHash(),
                 AuthorityUtils.createAuthorityList("ROLE_USER"));
-        this.wrappedBrazillian = sourceBrazilian;
+        this.wrappedBrazilian = sourceBrazilian;
     }
 }
