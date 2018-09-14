@@ -48,6 +48,7 @@ dependencies {
 	compile('org.postgresql:postgresql')
 	compile('com.h2database:h2:1.4.191')
 	compile('org.seasar.doma.boot:doma-spring-boot-starter:1.0.2')
+    compile("org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16")
 
 	// Test
 	testCompile('org.springframework.boot:spring-boot-starter-test')
