@@ -3,7 +3,6 @@ package teambrazil.yurubo.entity;
 import lombok.Getter;
 import lombok.Setter;
 import org.seasar.doma.*;
-import org.springframework.security.core.authority.AuthorityUtils;
 
 /**
  * Entity class representing an user.
